@@ -24,6 +24,14 @@ public class Jogo {
             m[2][2]='9';
             for(int i=0; i<3 ; i++){
                 
+                 for(int j=0 ; j<3 ; j++){
+                       
+                        System.out.printf("   "+m[i][j]);
+                  }
+                 
+                  System.out.println("\n");
+            }
+                
             }
     }
     
