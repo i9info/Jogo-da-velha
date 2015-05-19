@@ -31,6 +31,13 @@ public class Jogo {
                  
                   System.out.println("\n");
             }
+            do{
+            escolheJogador=escolheJogador%2;
+                 
+            if(escolheJogador == 0){    
+                 
+            System.out.println("Jogador '1', Escolha uma posição");
+            posicao=scanner.nextLine().charAt(0);
                 
             }
     }
