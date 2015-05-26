@@ -52,6 +52,12 @@ public class Jogo {
             if(escolheJogador==0){
                 System.out.println("\n\n\n\n\nposicao invalida\n");
                 
+            for(int i=0; i<3 ; i++){       
+                 
+                  for(int j=0 ; j<3 ; j++){
+                        if(posicao = = m[i][j]){
+                             m[i][j]='X';
+                             escolheJogador = escolheJogador + 1;
             }
     }        
             else{
