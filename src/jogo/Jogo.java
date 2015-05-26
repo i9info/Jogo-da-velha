@@ -86,7 +86,7 @@ public class Jogo {
                   System.out.println("\n\n\n\n\njogador 2 ganhou\n\n\n\n\n\n\n\n");
                   Ganhou=1;
             }
-           
+            }
             }while(Ganhou!=1);
             }
             }
