@@ -38,9 +38,42 @@ public class Jogo {
                  
             System.out.println("Jogador '1', Escolha uma posição");
             posicao=scanner.nextLine().charAt(0);
+            
+            for (int i=0 ; i<3 ; i++){ 
+                for(int j=0 ; j<3 ; j++){
+            
+                if(posicao==m[i][j]){
+                    m[i][j]='x' ;
+                    escolheJogador=escolheJogador+1;
+                }
+            }
+            } 
+            
+            if(escolheJogador==0){
+                System.out.println("\n\n\n\n\nposicao invalida\n");
                 
             }
-    }
-    
-            //
-            //test 2
+    }        
+            else{
+            System.out.println("jogador '2' , entre com uma posicao");
+            posicao=scanner.nextLine().charAt (0);
+            
+            for(int i=0; i<3; i++){
+            for(int j=0 ; j<3 ; j++){
+            if(posicao==m[i][j]){
+                m[i][j]='0';
+               escolheJogador=escolheJogador+1;
+          
+                    }
+                    }
+            }
+                if(escolheJogador==0){
+                System.out.println("\n\n\n\n\nposicao invalida\n");
+            }   
+            }
+                 for(int i=0; i<3 ; i++){
+                 for(int j=0 ; j<3 ; j++){
+                     System.out.printf("  "+m[i][j]);
+                 }
+              System.out.println("\n");
+
